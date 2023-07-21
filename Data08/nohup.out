@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "TDGCN08.py", line 21, in <module>
+    from data.lib.preprocess import read_and_generate_dataset
+  File "/home/user/pan/project/TDGCN/Data08/data/lib/preprocess.py", line 5, in <module>
+    from TDGCN.Data08.utils.data_util import get_sample_indices
+ModuleNotFoundError: No module named 'TDGCN'
