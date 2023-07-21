@@ -5,7 +5,6 @@ from tqdm import tqdm
 from sklearn.preprocessing import normalize
 from scipy.stats import entropy
 
-
 def setup_features_tuple(train_w_d_h):
     """  train_w_d_h: train_week / train_day / train_hour， from last layer  """
     for i, unit in enumerate(train_w_d_h):
