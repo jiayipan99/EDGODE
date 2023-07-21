@@ -1,6 +1,4 @@
 import sys
-sys.path.append('/home/user/pan/project')
-
 import os
 import shutil
 from time import time
